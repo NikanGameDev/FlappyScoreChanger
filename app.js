@@ -582,7 +582,7 @@ function restart() {
 }
 
 function die() {
-    ga('send', 'event', "Flappy Bird", "Score", "100", "100");
+    ga('send', 'event', "Flappy Bird", "Score", 100, 100);
     if (counter.text > highScore.text) {
         highScore.text = counter.text;
         highScoreOutline.text = counterOutline.text;
